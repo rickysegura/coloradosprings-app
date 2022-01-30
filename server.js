@@ -11,7 +11,7 @@ app.use(expressLayouts)
 app.use(express.static("public"))
 
 const mongoose = require("mongoose")
-mongoose.connect("mongodb://localhost/csDevOps")
+mongoose.connect("mongodb+srv://rickysegura:gjJUj11jHJJHs9MB@cluster0.hsoxk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 const db = mongoose.connection
 db.on("error", error => console.error(error))
