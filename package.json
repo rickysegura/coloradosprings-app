@@ -1,0 +1,31 @@
+{
+  "name": "coloradosprings-app",
+  "version": "1.0.0",
+  "description": "An app designed to be a place local Colorado Springs citizens can post things",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickysegura/coloradosprings-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickysegura/coloradosprings-app/issues"
+  },
+  "homepage": "https://github.com/rickysegura/coloradosprings-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.1.8"
+  },
+  "devDependencies": {
+    "dotenv": "^14.3.2",
+    "nodemon": "^2.0.15"
+  }
+}
